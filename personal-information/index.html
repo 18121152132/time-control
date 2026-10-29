@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="6T9imMjBxl3JRz4a8STfie">
+<head data-page-node-id="cgI5EOrPUmSPWsrmWMMy4U">
+<meta charset="UTF-8" data-page-node-id="KeBPHLChN6sQPKOITHiowJ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="CWzaziJlAdqHHwkx7Y27QM">
+<title>个人简介</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #f5f6fa;
+    --card: #ffffff;
+    --primary: #4f6ef7;
+    --text: #2b2f36;
+    --text-light: #6b7280;
+    --accent: #eef1fe;
+  }
+
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+  .profile-card {
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    background: var(--card);
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(31, 41, 55, 0.10);
+    overflow: hidden;
+  }
+
+  /* 左侧：个人简介 */
+  .intro {
+    flex: 1.4;
+    padding: 48px 44px;
+  }
+
+  .intro .greeting {
+    color: var(--primary);
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .intro h1 {
+    font-size: 32px;
+    margin-bottom: 6px;
+  }
+
+  .intro .title {
+    font-size: 16px;
+    color: var(--text-light);
+    margin-bottom: 24px;
+  }
+
+  .intro .about {
+    font-size: 15px;
+    line-height: 1.9;
+    color: var(--text-light);
+    margin-bottom: 28px;
+    text-indent: 2em;
+  }
+
+  .section-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 28px;
+  }
+
+  .tag {
+    background: var(--accent);
+    color: var(--primary);
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 999px;
+  }
+
+  .info-list {
+    font-size: 14px;
+    line-height: 2.1;
+    color: var(--text-light);
+  }
+
+  .info-list b {
+    color: var(--text);
+    font-weight: 600;
+    margin-right: 8px;
+  }
+
+  /* 右侧：照片 */
+  .photo-side {
+    flex: 0.75;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 44px 28px;
+    position: relative;
+  }
+
+  .photo-frame {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 3px solid #d7defb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(79, 110, 247, 0.18);
+  }
+
+  .photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none; /* 照片替换后由脚本显示 */
+  }
+
+  .photo-placeholder {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .photo-placeholder .icon {
+    font-size: 44px;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 760px) {
+    .profile-card { flex-direction: column-reverse; }
+    .photo-side { padding: 36px 24px; }
+    .photo-frame { width: 240px; height: 240px; }
+    .intro { padding: 32px 28px; }
+  }
+</style>
+</head>
+<body data-page-node-id="nMu5dJGHfdHJW9oiaUo1Ds">
+
+  <div class="profile-card" data-page-node-id="CbpZBzq9OetuWZc7oIxXkM">
+
+    <!-- 左侧：个人简介 -->
+    <div class="intro" data-page-node-id="zbgFQsjvDWGGsBLxQmcbS1">
+      <div class="greeting" data-page-node-id="u4DWbs0NFXbbVxetQ5eCxC">HELLO, I AM</div>
+      <h1 data-page-node-id="TS7vhIwnvEY9mTiR5q8LEQ">邹海建</h1>
+      <div class="title" data-page-node-id="wSQ18MXozYL6TMmrBEIS1x">上海杉达学院 · 学生</div>
+
+      <p class="about" data-page-node-id="EF4N28QJgYAe2p1T9tS0Rr">
+        我是邹海建，目前就读于上海杉达学院。热爱运动，享受球场与跑道上的每一次突破；
+        对人工智能充满热情，善于运用 AI 工具提升学习与生活效率；
+        性格开朗，积极参与校园各项活动，乐于在实践中锻炼自己、结交朋友。
+      </p>
+
+      <div class="section-label" data-page-node-id="Eix4zhpkBRCENWWmz5QJpP">技能 / 标签</div>
+      <div class="tags" data-page-node-id="5RFHCDFGrOG6gSY5rmmmGk">
+        <span class="tag" data-page-node-id="jNhwhKAYsTrhcFaqqA0r8w">热爱运动</span>
+        <span class="tag" data-page-node-id="K5EjTq6H2DnZIZOLGcvjZM">善用 AI</span>
+        <span class="tag" data-page-node-id="5vnWnTzkRTBLa328oKivbR">积极参与活动</span>
+      </div>
+
+      <div class="section-label" data-page-node-id="EuuOFpyHfWCxcHM7EIbWcA">联系方式</div>
+      <div class="info-list" data-page-node-id="kKLRwjk6xj2d2PVewixBCc">
+        <div data-page-node-id="vZRQYkCdlRJtWBdRF2VDIY"><b data-page-node-id="RqpIZmIIav5aOpFB08f8At">邮箱</b>3057481805@qq.com</div>
+        <div data-page-node-id="90ctD1WY5CHOuafxmLtn1r"><b data-page-node-id="7DfGUZDKhX32IHA2Be9cZ7">电话</b>181-2115-2132</div>
+        <div data-page-node-id="XAAnV34F6Izi7SbsZkzVIz"><b data-page-node-id="iYPsuTxEfUwzInufyDyAB6">城市</b>上海</div>
+      </div>
+    </div>
+
+    <!-- 右侧：照片 -->
+    <div class="photo-side" data-page-node-id="e260r0iopG8hG0qCexDkxv">
+      <div class="photo-frame" id="photoFrame" data-page-node-id="3cmhLHqVOIgTFbm4sLRxBh">
+        <img id="photoImg" src="photo.jpg" alt="个人照片" data-page-node-id="WDOmR85k7MMIz9MHBIZxyw">
+        <div class="photo-placeholder" id="photoPlaceholder" data-page-node-id="MmiAG5iyA0HODMpCe5eiHn">
+          <span class="icon" data-page-node-id="tfcukVdD6u7Q41Qjt1CfGx">📷</span>
+          照片待替换<br data-page-node-id="1IcBoZ2NrF90zmoXLXlP0A">（photo.jpg）
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<script>
+  // 照片放入同目录 photo.jpg 后自动显示
+  const img = document.getElementById('photoImg');
+  const placeholder = document.getElementById('photoPlaceholder');
+  img.addEventListener('load', () => {
+    img.style.display = 'block';
+    placeholder.style.display = 'none';
+  });
+  img.addEventListener('error', () => {
+    img.style.display = 'none';
+    placeholder.style.display = 'block';
+  });
+  img.src = 'photo.jpg?v=' + Date.now();
+</script>
+
+</body>
+</html>
